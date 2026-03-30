@@ -62,3 +62,13 @@
 
 
 *В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.*
+
+#### Ответ:
+
+При атаке на подбор пароля в suricata прилетают события ET SCAN Potential SSH Scan:
+
+<img width="971" height="332" alt="image" src="https://github.com/user-attachments/assets/16b3a3b8-7ee8-41f2-ab6d-be7874022193" />
+
+в лог fail2ban прилетают события по обнаружению попытки и блокировки адреса:
+
+<img width="901" height="281" alt="image" src="https://github.com/user-attachments/assets/7fb706b9-15ee-4d04-b36a-cfadd670b30e" />
